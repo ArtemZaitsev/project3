@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Koorkin Italic';
+    src: url('../fonts/KoorkinItalic/KoorkinItalic.eot');
+    src: url('../fonts/KoorkinItalic/KoorkinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KoorkinItalic/KoorkinItalic.woff') format('woff'),
+    url('../fonts/KoorkinItalic/KoorkinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-small{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bg-fix{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.one-third{
+    width: 50%;
+}
+
+.flex-box{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.go-top{
+    opacity: 0;
+    transition: opacity 1500ms;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
